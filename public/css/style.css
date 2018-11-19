@@ -1,0 +1,36 @@
+/*body{
+	background: grey;
+	text-align: center;
+}
+*/
+h1{
+	text-transform: uppercase;
+}
+
+.myCollage{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.thumbnail{
+	padding: 0;
+}
+
+.thumbnail img{
+	width: 100%;
+}
+
+.thumbnail .caption-full{
+	padding: 10px;
+}
+
+.form-description{
+	height: 200px;
+}
+
+#delete-form{
+	display: inline;
+}
+/*.campEntry h4{
+	margin: 10px auto;
+}
