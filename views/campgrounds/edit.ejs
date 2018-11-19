@@ -1,10 +1,9 @@
 <% include ../partials/header %>
 
-
 <div class="container text-center">
 	<div class="row">
+		<div class = "col-md-4 m-auto">
 		<h1>Edit Campground</h1>
-		<div class = "col-lg-4 col-lg-offset-4">
 			<form action="/campgrounds/<%= campground._id %>?_method=PUT" method="POST">
 				<div class="form-group">
 					<input class="form-control" type="text" name="name" placeholder="Name" value="<%= campground.name %>">
