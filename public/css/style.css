@@ -1,10 +1,31 @@
-/*body{
+body{
 	background: grey;
 	text-align: center;
 }
-*/
+
 h1{
 	text-transform: uppercase;
+}
+
+.homePage{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	padding: 125px 100px;
+	justify-content: space-between;
+	min-height: 100vh;
+  background-image: url("../images/baba.jpg");
+	opacity: 0.8;
+	background-size: cover;
+	color: #fff;
+	text-align: center;
+}
+.homePage h1{
+	font: bold 60px 'Raleway', sans-serif;
+	margin-bottom: 15px;
+	color: black;
+  text-transform: uppercase;
 }
 
 .myCollage{
