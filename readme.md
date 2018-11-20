@@ -11,12 +11,6 @@ Each Campground has:
 
 ## RESTFUL ROUTES
 
-name      url      verb    desc.
-===============================================
-INDEX/t/dogs      GET   Display a list of all dogs
-NEW/t/dogs/new  GET   Displays form to make a new dog
-CREATE  /dogs      POST  Add new dog to DB
-SHOW    /dogs/:id  GET   Shows info about one dog
 
 INDEX   /campgrounds
 NEW     /campgrounds/new
