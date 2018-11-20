@@ -7,7 +7,9 @@ Each Campground has:
 ## Users + Campgrounds
 * Prevent an unauthenticated user from creating a campground
 * Save username+id to newly created campground
-RESTFUL ROUTES
+
+
+## RESTFUL ROUTES
 
 name      url      verb    desc.
 ===============================================
