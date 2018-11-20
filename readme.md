@@ -12,10 +12,10 @@ Each Campground has:
 ## RESTFUL ROUTES
 
 
-INDEX   /campgrounds
-NEW     /campgrounds/new
-CREATE  /campgrounds
-SHOW    /campgrounds/:id
+1. INDEX   /campgrounds
+2. NEW     /campgrounds/new
+3. CREATE  /campgrounds
+4. SHOW    /campgrounds/:id
 
-NEW     campgrounds/:id/comments/new    GET
-CREATE  campgrounds/:id/comments      POST
+5. NEW     campgrounds/:id/comments/new     GET
+6. CREATE  campgrounds/:id/comments         POST
