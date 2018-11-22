@@ -12,10 +12,12 @@ Each Campground has:
 ## RESTFUL ROUTES
 
 
-1. INDEX   /campgrounds
-2. NEW     /campgrounds/new
-3. CREATE  /campgrounds
-4. SHOW    /campgrounds/:id
+1. INDEX   /campgrounds                   GET
+2. NEW     /campgrounds/new               GET
+3. CREATE  /campgrounds                   POST
+4. SHOW    /campgrounds/:id               GET
+5. EDIT    /campgrounds/:id/edit          GET
+6. UPDATE  /campgrounds/:id               PUT
+7. DESTROY /campgrounds/:id               DELETE
 
-5. NEW     campgrounds/:id/comments/new     GET
-6. CREATE  campgrounds/:id/comments         POST
+
